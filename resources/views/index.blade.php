@@ -6,7 +6,7 @@
  	<div class="row">
 	 	<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
 	 	@if(count($jobs)>0)
-	 		<h2 class="text-center">Find Jobs</h2>
+	 		<h2 class="text-center heading-text">Find A Better Job</h2>
 	 		@if(Session::has('message'))
 	            <p class="alert alert-success text-center">{{ Session::get('message') }}</p>
 	        @endif

@@ -12,7 +12,7 @@
 <body>
 	@include('partials.header')
 	<div class="container">
-		<div class="top">
+		<div class="top normal-text">
 		    @yield('content')
 		</div>
 	</div>

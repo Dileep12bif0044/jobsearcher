@@ -7,10 +7,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="{{ route('home') }}">JobLo</a>
+      <a class="navbar-brand" href="{{ route('home') }}">JobSearcher</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav navbar-right">
+      <ul class="nav navbar-nav navbar-right normal-text">
         <li class="dropdown">
         @if(Auth::check())
           @if(Auth::user()->user_type == 1)
